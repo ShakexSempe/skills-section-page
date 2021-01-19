@@ -46,9 +46,7 @@ body{
     color: #ddd;
     cursor: pointer;
 }
-.skill-box:hover{
-    transition: .5s;
-}
+
 .skill-box:hover > .skill-title::after, 
 .skill-box:hover > .skill-title:before{
     width: 35px;
@@ -91,7 +89,6 @@ body{
     transition: .5s;
 }
 .img{
-    transition: 5s;
     filter: grayscale(0.8);
     width: 90px;
     height: 90px;
